@@ -16,14 +16,36 @@ ecommerce-order-cleaning-labeling/
 ├─ sql/                    # MySQL 建表与查询语句
 ├─ requirements.txt
 └─ README.md
-```
 
+```
+该部分用于展示清洗后数据的进一步查询、核验与基础统计流程。
 ## 使用工具
 
 - Python
 - pandas
 - MySQL
 - Excel / WPS
+## MySQL 查询练习
+
+项目提供了基础 MySQL 查询脚本，文件路径为：
+
+```text
+sql/mysql_practice_queries.sql
+```
+
+该脚本主要用于订单数据导入数据库后的核验与分析，内容包括：
+
+- 订单总量查询
+- 常用字段查看
+- 条件筛选
+- 缺失字段检查
+- 重复订单查询
+- 商品类别、地区、订单状态分组统计
+- 销售额计算
+- 月度订单统计
+- 高金额订单检查
+
+该部分用于展示清洗后数据的进一步查询、核验与基础统计流程。
 
 ## 已完成内容
 
